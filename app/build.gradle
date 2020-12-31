@@ -102,4 +102,5 @@ dependencies {
     implementation "androidx.compose.material:material:$compose"
     implementation "androidx.compose.material:material-icons-core:$compose"
     implementation "androidx.compose.material:material-icons-extended:$compose"
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha04"
 }
