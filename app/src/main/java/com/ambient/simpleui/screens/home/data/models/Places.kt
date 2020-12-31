@@ -1,4 +1,4 @@
-package com.ambient.simpleui.screens.home.ui.data.models
+package com.ambient.simpleui.screens.home.data.models
 
 import androidx.annotation.DrawableRes
 
