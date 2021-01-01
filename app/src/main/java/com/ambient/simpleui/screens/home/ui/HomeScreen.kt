@@ -13,9 +13,8 @@ fun HomeScreen(navController: NavController) {
         placesList = placesList,
         onItemClick = {
             navController.navigate(
-                Screen.Post.route.name
+                "${Screen.Post.route.name}/${it.name}/${it.country}/${it.image}/${it.description}"
             )
         }
     )
-
 }
